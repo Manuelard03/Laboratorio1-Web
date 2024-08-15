@@ -1,0 +1,72 @@
+.CTA-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+    background-color: #fff;
+    margin-left: 50px;
+  }
+  
+  .CTA-content {
+    max-width: 50%;
+    color: black;
+    text-align: left;
+  }
+  
+  .CTA-content h1 {
+    font-size: 4rem;
+    font-weight: bolder;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  
+  .CTA-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: gray;
+  }
+  
+  .CTA-buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .btn {
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+  }  
+  
+
+  @media (max-width: 932px) {
+    .CTA-content h1 {
+      font-size: 2.5rem;
+      font-weight: bolder;
+      line-height: 1.2;
+      margin-bottom: 20px;
+      margin-left: 0;
+    }
+    
+    .CTA-content p {
+      font-size: 1rem;
+      margin-bottom: 20px;
+      font-weight: 500;
+      color: gray;
+    }
+    
+    .CTA-buttons {
+      display: block;
+      gap: 10px;
+    }
+    
+    .btn {
+      padding: 12px 20px;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      border: none;
+    }
+  }

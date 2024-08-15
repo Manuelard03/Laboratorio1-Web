@@ -1,0 +1,23 @@
+.logo-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.logo-section img {
+  max-width: 100px;
+  height: auto;
+}
+
+@media (max-width: 932px) {
+  .logo-section {
+    justify-content: space-around;
+    display: flex;
+  }
+
+  .logo-section img {
+    max-width: 40px;
+  }
+}

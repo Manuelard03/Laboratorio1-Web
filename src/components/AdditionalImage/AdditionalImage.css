@@ -1,0 +1,29 @@
+.additional-image-container {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 0;
+  }
+  
+  .additional-image-container img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+  }
+
+  @media (max-width: 932px) {
+    .additional-image-container {
+      text-align: left;
+      padding: 20px 0;
+      margin-top: 0;
+      width: 30%;
+    }
+  
+    .additional-image-container img {
+      max-width: 90%;
+      height: auto;
+      
+    }
+  }
+  

@@ -1,0 +1,158 @@
+.footer {
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+  }
+
+  hr {
+    color: #333;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 400px;
+  }
+  
+  .footer-right {
+    display: flex;
+    justify-content: flex-end;
+    text-align: left;
+    width: 75%;
+  }
+  
+  .Notion-logo {
+    display: flex;
+  }
+
+  .Notion-logo p {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+  }
+
+  .footer-logo-section {
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo {
+    max-width: 30px;
+    height: 30px;
+    margin-top: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons img {
+    width: 24px;
+  }
+  
+  .footer-language select {
+    margin-top: 10px;
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 5px;
+    font-weight: bold;
+  }
+  
+  .footer-links-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .footer-column {
+    margin: 0 20px;
+    flex: 1;
+  }
+  
+  .footer-column h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 16px;
+  }
+  
+
+  .footer-column a {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-column a:hover {
+    text-decoration: underline;
+    color: #087fe7;
+  }
+  
+  .footer-bottom {
+    text-align: left;
+    font-size: 14px;
+    color: #666;
+    width: 100%;
+  }
+
+  .footer-bottom h5{
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .footer-bottom p{
+    color: #666;
+    font-size: smaller;
+    font-weight: 500;
+  }
+
+  @media (max-width: 932px) {
+    .footer-content {
+      margin-left: 20px;
+      align-items: left;
+    }
+  
+    .footer-top {
+      flex-direction: column;
+      align-items: left;
+    }
+  
+    .footer-left,
+    .footer-right {
+      width: 100%;
+      text-align: left; 
+    }
+  
+    .social-icons {
+      justify-content: left;
+    }
+    
+    .footer-links-section {
+      flex-direction: column;
+      align-items: left;
+    }
+  
+    .footer-column {
+      margin: 10px 0;
+    }
+  }
+  
